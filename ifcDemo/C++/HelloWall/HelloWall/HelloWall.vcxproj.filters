@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ifccreation">
+      <UniqueIdentifier>{b07ec6d1-de2a-4644-aa4d-0d767e384307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ifccreation">
+      <UniqueIdentifier>{c4ca1457-d2d3-405f-b827-042ba99c7e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ifcengine">
+      <UniqueIdentifier>{c60e96e0-c5e3-4c48-a09c-2fa288a8024a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ifcengine\include">
+      <UniqueIdentifier>{1e60d373-1615-46ba-937c-078c3add14cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\HelloWall.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HelloWall.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelloWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWallDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\boundingBoxIfc.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\brepIfc.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\extrudedPolygonIfc.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\baseIfc.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\baseIfcObject.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+    <ClInclude Include="ifcengine\include\ifcengine.h">
+      <Filter>Header Files\ifcengine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ifccreation\propertiesIfc.h">
+      <Filter>Header Files\ifccreation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWallDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\brepIfc.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\extrudedPolygonIfc.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\baseIfc.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\baseIfcObject.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\boundingBoxIfc.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+    <ClCompile Include="ifccreation\propertiesIfc.cpp">
+      <Filter>Source Files\ifccreation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HelloWall.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\bin\x64\Release\IfcEditor-64bit.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\bin\x64\Release\IfcEditor-64bit.pdb
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\obj\x64\Release\ifceditor.Form1.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\obj\x64\Release\ifceditor.Properties.Resources.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\obj\x64\Release\ifceditor.csproj.GenerateResource.Cache
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\obj\x64\Release\IfcEditor-64bit.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\64bit-IFCEditor\ifceditor\obj\x64\Release\IfcEditor-64bit.pdb

@@ -1,0 +1,10 @@
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\bin\Debug\IFC2X3_TC1.exp
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\bin\Debug\IFC4.exp
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\bin\Debug\HelloWall.exe.config
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\bin\Debug\HelloWall.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\bin\Debug\HelloWall.pdb
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\obj\x86\Debug\HelloWall.HelloWallForm.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\obj\x86\Debug\HelloWall.Properties.Resources.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\obj\x86\Debug\HelloWall.csproj.GenerateResource.Cache
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\obj\x86\Debug\HelloWall.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\HelloWall\HelloWall\obj\x86\Debug\HelloWall.pdb

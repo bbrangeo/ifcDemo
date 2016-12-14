@@ -1,0 +1,14 @@
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\bin\Release\IfcEditor-32bit.exe
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\bin\Release\IfcEditor-32bit.pdb
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.Form1.resources
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.Properties.Resources.resources
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.csproj.GenerateResource.Cache
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\IfcEditor-32bit.exe
+C:\ifcenginedllpackage\OLD\ifcenginedllpackage-20141001\ifcenginedllpackage-20150422\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\IfcEditor-32bit.pdb
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\bin\Release\IfcEditor-32bit.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\bin\Release\IfcEditor-32bit.pdb
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.Form1.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.Properties.Resources.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\ifceditor.csproj.GenerateResource.Cache
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\IfcEditor-32bit.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\32bit-IFCEditor\ifceditor\obj\x86\Release\IfcEditor-32bit.pdb

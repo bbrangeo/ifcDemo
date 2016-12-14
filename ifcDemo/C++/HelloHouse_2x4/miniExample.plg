@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: miniExample - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/miniExample.res" /d "NDEBUG" /d "_AFXDLL" "C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExample.rc"" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPB762.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/miniExample.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\baseIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\baseIfcObject.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\boundingBoxIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\BRepIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\extrudedPolygonIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExample.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\propertiesIfc.cpp"
+]
+Creating command line "cl.exe @C:\Users\Peter\AppData\Local\Temp\RSPB762.tmp" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPB763.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/miniExample.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Peter\AppData\Local\Temp\RSPB763.tmp" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPB764.tmp" with contents
+[
+IFCEngine.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/HelloHouse.pdb" /machine:I386 /out:"Release/HelloHouse.exe" 
+".\Release\baseIfc.obj"
+".\Release\baseIfcObject.obj"
+".\Release\boundingBoxIfc.obj"
+".\Release\BRepIfc.obj"
+".\Release\extrudedPolygonIfc.obj"
+".\Release\miniExample.obj"
+".\Release\miniExampleDlg.obj"
+".\Release\propertiesIfc.obj"
+".\Release\StdAfx.obj"
+".\Release\miniExample.res"
+]
+Creating command line "link.exe @C:\Users\Peter\AppData\Local\Temp\RSPB764.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+baseIfc.cpp
+baseIfcObject.cpp
+boundingBoxIfc.cpp
+BRepIfc.cpp
+extrudedPolygonIfc.cpp
+miniExample.cpp
+miniExampleDlg.cpp
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1446) : warning C4101: 'windowYOffset' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingWidth' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1434) : warning C4101: 'pShell' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'wallName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1444) : warning C4101: 'ifcWindowInstance' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'windowName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingZOffset' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingHeight' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1444) : warning C4101: 'ifcOpeningElementInstance' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'openingName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1446) : warning C4101: 'windowThickness' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingXOffset' : unreferenced local variable
+propertiesIfc.cpp
+Generating Code...
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1499) : warning C4700: local variable 'objectsWillBeAdded' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+HelloHouse.exe - 0 error(s), 13 warning(s)
+<h3>
+--------------------Configuration: miniExample - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/miniExample.res" /d "_DEBUG" /d "_AFXDLL" "C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExample.rc"" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPBA03.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/miniExample.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\baseIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\baseIfcObject.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\boundingBoxIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\BRepIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\extrudedPolygonIfc.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExample.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp"
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\propertiesIfc.cpp"
+]
+Creating command line "cl.exe @C:\Users\Peter\AppData\Local\Temp\RSPBA03.tmp" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPBA04.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/miniExample.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Peter\AppData\Local\Temp\RSPBA04.tmp" 
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPBA05.tmp" with contents
+[
+IFCEngine.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HelloHouse.pdb" /debug /machine:I386 /out:"Debug/HelloHouse.exe" /pdbtype:sept 
+".\Debug\baseIfc.obj"
+".\Debug\baseIfcObject.obj"
+".\Debug\boundingBoxIfc.obj"
+".\Debug\BRepIfc.obj"
+".\Debug\extrudedPolygonIfc.obj"
+".\Debug\miniExample.obj"
+".\Debug\miniExampleDlg.obj"
+".\Debug\propertiesIfc.obj"
+".\Debug\StdAfx.obj"
+".\Debug\miniExample.res"
+]
+Creating command line "link.exe @C:\Users\Peter\AppData\Local\Temp\RSPBA05.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+baseIfc.cpp
+baseIfcObject.cpp
+boundingBoxIfc.cpp
+BRepIfc.cpp
+extrudedPolygonIfc.cpp
+miniExample.cpp
+miniExampleDlg.cpp
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1446) : warning C4101: 'windowYOffset' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingWidth' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1434) : warning C4101: 'pShell' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'wallName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1444) : warning C4101: 'ifcWindowInstance' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'windowName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingZOffset' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingHeight' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1444) : warning C4101: 'ifcOpeningElementInstance' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1449) : warning C4101: 'openingName' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1446) : warning C4101: 'windowThickness' : unreferenced local variable
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1445) : warning C4101: 'openingXOffset' : unreferenced local variable
+propertiesIfc.cpp
+Generating Code...
+C:\projects\IFC-Engine\IFCEngineDLLv1.03\IFCEngineDLLv1.03 (build 3365)\VisualC_32bit\HelloHouse_2x4\miniExampleDlg.cpp(1499) : warning C4700: local variable 'objectsWillBeAdded' used without having been initialized
+Linking...
+Creating temporary file "C:\Users\Peter\AppData\Local\Temp\RSPBCD4.tmp" with contents
+[
+/nologo /o"Debug/miniExample.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\baseIfc.sbr"
+".\Debug\baseIfcObject.sbr"
+".\Debug\boundingBoxIfc.sbr"
+".\Debug\BRepIfc.sbr"
+".\Debug\extrudedPolygonIfc.sbr"
+".\Debug\miniExample.sbr"
+".\Debug\miniExampleDlg.sbr"
+".\Debug\propertiesIfc.sbr"]
+Creating command line "bscmake.exe @C:\Users\Peter\AppData\Local\Temp\RSPBCD4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HelloHouse.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\bin\Release\IFCViewer.exe.config
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\bin\Release\IFCViewer.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\bin\Release\IFCViewer.pdb
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.csprojResolveAssemblyReference.cache
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.AboutBox1.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.Form1.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.Properties.Resources.resources
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.csproj.GenerateResource.Cache
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.exe
+C:\ifcenginedllpackage\IFCEngineDLLv1.04 (build 4000+)\C#\ifcviewer\IFCViewer\obj\x86\Release\IFCViewer.pdb
