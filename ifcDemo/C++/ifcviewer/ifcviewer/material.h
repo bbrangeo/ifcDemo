@@ -40,6 +40,22 @@ struct STRUCT_MATERIALS {
 	STRUCT_MATERIALS				* next;
 };
 
+struct STRUCT_MATERIAL_VALUE {
+	STRUCT_COLOR					ambient;
+	STRUCT_COLOR					diffuse;
+	STRUCT_COLOR					specular;
+	STRUCT_COLOR					emissive;
+
+	double							transparency;
+	double							shininess;
+};
+
+struct STRUCT_IFCOBJECT_MATERIAL {
+	int32_t							indexOffsetForFaces;
+	int32_t							indexArrayPrimitives;
+	STRUCT_MATERIAL_VALUE			materialValue;
+};
+
 
 void				initializeMaterial(int_t owlModel);
 STRUCT_MATERIALS	* ifcObjectMaterial(int_t ifcModel, int_t ifcInstance);

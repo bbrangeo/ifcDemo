@@ -2,7 +2,7 @@
 
 #include "ifcengine/include/engdef.h"
 #include "unit.h"
-//#include <stdint.h>
+#include <vector>
 
 
 #define		STRUCT_TYPE_MATERIAL				200
@@ -20,7 +20,7 @@ struct STRUCT__SIUNIT;
 
 
 struct STRUCT_MATERIALS;
-
+struct STRUCT_IFCOBJECT_MATERIAL;
 
 typedef struct VECTOR3 {
 	double							x;
@@ -68,6 +68,8 @@ struct STRUCT__IFC__OBJECT {
 	int32_t							* indicesForLinesWireFrame;
 	int_t							vertexOffsetForWireFrame;
 	int_t							indexOffsetForWireFrame;
+
+	std::vector<STRUCT_IFCOBJECT_MATERIAL>      ifcObjectMaterialsVector;
 };
 
 struct STRUCT__SELECTABLE__TREEITEM {

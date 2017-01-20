@@ -7,6 +7,8 @@
 
 #include <list>
 
+#include "material.h"
+
 
 
 extern	bool	showFaces, showWireFrame, enableOnOver;
@@ -1148,9 +1150,19 @@ void	FillIndexBuffers_ifcFaces(int_t * pIBuffSize, int32_t * pIndices, D3DMATERI
 {
 	STRUCT__IFC__OBJECT	* ifcObject = ifcObjectsLinkedList;
 	while  (ifcObject) {
+		int32_t thisObjectOffsetForFaces = 0;
 		STRUCT_MATERIALS	* materials = ifcObject->materials;
 		while  (materials) {
 			if	(ifcObject->ifcInstance  &&  ifcObject->noVertices  &&  ifcObject->noPrimitivesForFaces  &&  materials->material->MTRL == (void*) mtrl) {
+				// get material for JSON
+				STRUCT_MATERIAL_VALUE materialValue;
+				materialValue.ambient = materials->material->ambient;
+				materialValue.diffuse = materials->material->diffuse;
+				materialValue.specular = materials->material->specular;
+				materialValue.emissive = materials->material->emissive;
+				materialValue.shininess = materials->material->shininess;
+				materialValue.transparency = materials->material->transparency;
+
 				int_t	i = 0;
 				while  (i < materials->indexArrayPrimitives) {
 					pIndices[(*pIBuffSize) + 3 * i + 0] = (int32_t) (ifcObject->indicesForFaces[3 * i + materials->indexArrayOffset + 0] + ifcObject->vertexOffsetForFaces);
@@ -1163,6 +1175,14 @@ void	FillIndexBuffers_ifcFaces(int_t * pIBuffSize, int32_t * pIndices, D3DMATERI
 				ASSERT(materials->indexOffsetForFaces == (*pIBuffSize));
 
 				(*pIBuffSize) += 3 * (int_t) materials->indexArrayPrimitives;
+				
+				STRUCT_IFCOBJECT_MATERIAL ifcObjectMaterial;
+				ifcObjectMaterial.indexArrayPrimitives = materials->indexArrayPrimitives;
+				ifcObjectMaterial.indexOffsetForFaces = thisObjectOffsetForFaces;
+				ifcObjectMaterial.materialValue = materialValue;
+
+				thisObjectOffsetForFaces += 3 * (int_t)materials->indexArrayPrimitives;
+				ifcObject->ifcObjectMaterialsVector.push_back(ifcObjectMaterial);
 			}
 			materials = materials->next;
 		}
